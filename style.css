@@ -1,3 +1,14 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: pink;
+}
+
 header {
     background-color: cornflowerblue;
     color: #fff;
@@ -7,11 +18,11 @@ header {
 
 .nav {
     width: 100%;
-    text-align: end;
+
   }
 
 .nav a {
-    padding: 290px;
+    padding: 250px;
     text-decoration: none;
     font-size: 24px;
     color: #ffffff;
@@ -32,10 +43,19 @@ footer {
 
 img {
     margin-bottom: 550px;
-    width: 400px;
+    width: 300px;
     float: right;
 }
 
 .container {
-    padding: 150px;
+    padding: 50px;
+    height: 400px;
+    background: white;
+    width: 40%;
+    border-radius: 25px;
+    margin: 20px;
+    float: right;
+}
+.container .currency-converter{
+    color: cornflowerblue;
 }
