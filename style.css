@@ -1,0 +1,41 @@
+header {
+    background-color: cornflowerblue;
+    color: #fff;
+    padding: 10px;
+    text-align: start;
+}
+
+.nav {
+    width: 100%;
+    text-align: end;
+  }
+
+.nav a {
+    padding: 290px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.nav a:hover {
+    color: #fdfd00;
+  }
+
+footer {
+    padding: 10px;
+    clear: both;
+    text-align: center;
+    background: cornflowerblue;
+    color: #ffffff;
+}
+
+img {
+    margin-bottom: 550px;
+    width: 400px;
+    float: right;
+}
+
+.container {
+    padding: 150px;
+}
