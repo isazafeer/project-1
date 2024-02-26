@@ -1,8 +1,7 @@
 * {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', sans-serif;
     margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -14,6 +13,7 @@ header {
     color: #fff;
     padding: 10px;
     text-align: start;
+    font-size: 24px;
 }
 
 .nav {
@@ -29,10 +29,10 @@ header {
     justify-content: space-between;
 }
 
-.nav a:hover {
+/*.nav a:hover {
     color: #fdfd00;
   }
-
+*/
 footer {
     padding: 10px;
     clear: both;
@@ -40,22 +40,44 @@ footer {
     background: cornflowerblue;
     color: #ffffff;
 }
-
-img {
-    margin-bottom: 550px;
-    width: 300px;
-    float: right;
+footer h4{
+    text-align: start;
+    font-size: 40px;
 }
 
 .container {
     padding: 50px;
     height: 400px;
     background: white;
-    width: 40%;
+    width: 65%;
     border-radius: 25px;
     margin: 20px;
-    float: right;
+    display: flex;
+}
+
+.container img {
+    padding: 50px;
+    width: 300px;
 }
 .container .currency-converter{
+    color: cornflowerblue;
+}
+
+.weather-container {
+    margin: 20px;
+    padding: 50px;
+    height: 400px;
+    background: white;
+    width: 90%;
+    border-radius: 25px;
+    display: flex;
+}
+
+.weather-container img {
+    padding: 35px;
+    width: 500px;
+}
+
+.weather-container .weather-dashboard{
     color: cornflowerblue;
 }
