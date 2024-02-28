@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'sans-serif';
+}
+
+body {
+    background-image: url(/Assets/images/background-image.jpg);
+}
+
+h1 {
+    background-color: antiquewhite;
+    max-width: 100%;
+    text-align: center;
+    padding: 15px;
+    font-size: 27px;
+}
+
+.container {
+    display: block;
+    gap: 35px;
+    padding: 30px;
+}
+
+.weather-input{
+    width: 550px;
+}
+
+.weather-input .recent-section ul{
+    text-align: center;
+    list-style-type: none;
+    display: none;
+}
+
+h2{
+    color: antiquewhite;
+}
+
+h3 {
+    color: antiquewhite;
+}
+
+h5 {
+    text-align: center;
+    background-color: antiquewhite;;
+    width: 100%;
+    padding: 10px;
+    color: black;
+    border-radius: 15px;
+    outline: auto;
+}
+
+.weather-input input{
+    width: 100%;
+    height: 46px;
+    outline: none;
+    padding: 0 15px;
+    margin: 10px 0 20px 0;
+    font-size: 1.07rem;
+    border-radius: 15px;
+    outline: auto;
+}
+
+.weather-input .separator {
+    height: 1px;
+    width: 100%;
+    background: antiquewhite;
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-input .separator::before {
+    content: "or";
+    color: black;
+    font-size: 1.18rem;
+    padding: 0 15px;
+    background: antiquewhite;
+    margin-top: -4px;
+    border-radius: 15px;
+    outline: auto;
+}
+
+.weather-input button {
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+    border: none;
+    color: black;
+    font-size: 1rem;
+    border-radius: 15px;
+    outline: auto;
+    background: antiquewhite;;
+}
+
+.weather-input .location-btn {
+    background: #6c757d;
+}
+
+.weather-data {
+    width: 100%;
+}
+
+.current-weather {
+    margin-top: 20px;
+    background: antiquewhite;;
+    display: flex;
+    color: black;
+    padding: 20px 70px 20px 20px;
+    border-radius: 15px;
+    outline: auto;
+    justify-content: space-between;
+}
+
+.current-weather h2 {
+    font-size: 1.7rem;
+}
+
+.weather-data h4 {
+    margin-top: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.current-weather .icon {
+    text-align: center;
+}
+
+.current-weather .icon img {
+    max-width: 120px;
+    margin-top: -15px;
+}
+
+.current-weather .icon h4 {
+    margin-top: -10px;
+    text-transform: capitalize;
+}
+
+.days-forecast h2 {
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.weather-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.weather-cards .card {
+    background: antiquewhite;
+    list-style: none;
+    color: black;
+    padding: 18px 16px;
+    border-radius: 15px;
+    outline: auto;
+    width: calc(100% / 5);
+}
+
+.weather-cards .card img {
+    max-width: 70px;
+    margin: 5px 0 -12px 0;
+}
+
+.recent-section .recent-locations {
+    background-color: antiquewhite;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+    outline: auto;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}

@@ -1,6 +1,6 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url(./images/background-image.jpg);
+    background-image: url(/Assets/images/background-image.jpg);
 }
 
 .header {
@@ -27,6 +27,8 @@ footer {
 
 a {
     padding: 150px;
+    text-decoration: none;
+    color: black;
 }
 
 .nav {
