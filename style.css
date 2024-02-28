@@ -5,10 +5,11 @@
 }
 
 body {
-    background: pink;
+    background-image: url(./images/background-image.jpg);
 }
 
 header {
+    opacity: 85%;
     background-color: cornflowerblue;
     color: #fff;
     padding: 10px;
@@ -34,6 +35,7 @@ header {
   }
 */
 footer {
+    opacity: 85%;
     padding: 10px;
     clear: both;
     text-align: center;
@@ -48,14 +50,16 @@ footer h4{
 .container {
     padding: 50px;
     height: 400px;
-    background: white;
+    outline: auto;
     width: 65%;
     border-radius: 25px;
     margin: 20px;
     display: flex;
+    float: right;
 }
 
 .container img {
+    float: right;
     padding: 50px;
     width: 300px;
 }
@@ -67,15 +71,10 @@ footer h4{
     margin: 20px;
     padding: 50px;
     height: 400px;
-    background: white;
+    outline: auto;
     width: 90%;
     border-radius: 25px;
     display: flex;
-}
-
-.weather-container img {
-    padding: 35px;
-    width: 500px;
 }
 
 .weather-container .weather-dashboard{
