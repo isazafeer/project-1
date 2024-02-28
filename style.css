@@ -1,17 +1,32 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url(/project-2/background-image.jpg);
+    background-image: url(./images/background-image.jpg);
 }
 
 .header {
     background-color: antiquewhite;
-    width: 100%;
+    max-width: 100%;
     height: 5vh;
     text-align: center;
     padding: 10px;
     font-size: 27px;
     border-radius: 15px;
     outline: auto;
+}
+
+footer {
+    background-color: antiquewhite;
+    max-width: 100%;
+    text-align: center;
+    padding: 1px;
+    font-size: 20px;
+    border-radius: 15px;
+    outline: auto;
+    line-height: 5px;
+}
+
+a {
+    padding: 150px;
 }
 
 .nav {
@@ -45,7 +60,7 @@ body {
 .description {
     font-size: 20px;
     text-align: center;
-    max-width: 100%;
+    width: 40%;
     box-sizing: border-box;
     border-radius: 15px;
     padding: 10px;
