@@ -111,3 +111,69 @@ h1 {
     position: relative;
     outline: auto;
 }
+
+.holiday {
+    display: flex;justify-content: center;
+    height: 30vh;
+}
+
+.tui {
+    width: 15%;
+    margin: 20px;
+    background-color: rgb(255, 241, 112);
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+    outline: auto;
+}
+
+.tui:hover {
+    width: 300px;
+    transition: all 0.3s ease-in-out;
+}
+
+.jet {
+    width: 15%;
+    margin: 20px;
+    background-color: rgb(255, 241, 112);
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+    outline: auto;
+}
+
+.jet:hover {
+    width: 300px;
+    transition: all 0.3s ease-in-out;
+}
+
+.love-hol {
+    width: 15%;
+    margin: 20px;
+    background-color: rgb(255, 241, 112);
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+    outline: auto;
+}
+
+.love-hol:hover {
+    width: 300px;
+    transition: all 0.3s ease-in-out;
+}
+
+.first-choice {
+    width: 15%;
+
+    margin: 20px;
+    background-color: rgb(255, 241, 112);
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+    outline: auto;
+}
+
+.first-choice:hover {
+    width: 300px;
+    transition: all 0.3s ease-in-out;
+}
