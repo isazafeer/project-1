@@ -80,47 +80,15 @@ h1 {
     font-size: 15px;
 }
 
-
-.curr-container {
-    display: flex;
-}
-
-.curr-conv {
-    font-size: 25px;
-    height: 40vh;
-    text-align: center;
-    width: 35%;
-    box-sizing: border-box;
-    border-radius: 15px;
-    padding: 10px ;
-    margin: 20px;
-    background: rgb(249, 168, 255);
-    outline: auto;
-}
-
-.curr-graph {
-    font-size: 25px;
-    height: 40vh;
-    text-align: center;
-    width: 65%;
-    box-sizing: border-box;
-    border-radius: 15px;
-    padding: 10px;
-    margin: 20px;
-    background: rgb(249, 168, 255);;
-    position: relative;
-    outline: auto;
-}
-
 .holiday {
     display: flex;justify-content: center;
     height: 30vh;
 }
 
 .tui {
+    background-image: url(/Assets/images/TUI\ Logo.png);
     width: 15%;
     margin: 20px;
-    background-color: rgb(255, 241, 112);
     box-sizing: border-box;
     border-radius: 15px;
     text-align: center;
@@ -135,7 +103,7 @@ h1 {
 .jet {
     width: 15%;
     margin: 20px;
-    background-color: rgb(255, 241, 112);
+    background-image: url(/Assets/images/Jet2\ Logo.png);
     box-sizing: border-box;
     border-radius: 15px;
     text-align: center;
@@ -150,7 +118,7 @@ h1 {
 .love-hol {
     width: 15%;
     margin: 20px;
-    background-color: rgb(255, 241, 112);
+    background-image: url(/Assets/images/Love-Holidays-Logo.jpg);
     box-sizing: border-box;
     border-radius: 15px;
     text-align: center;
@@ -164,9 +132,8 @@ h1 {
 
 .first-choice {
     width: 15%;
-
     margin: 20px;
-    background-color: rgb(255, 241, 112);
+    background-image: url(/Assets/images/First-Choice-Logo.jpg);
     box-sizing: border-box;
     border-radius: 15px;
     text-align: center;
@@ -174,6 +141,22 @@ h1 {
 }
 
 .first-choice:hover {
+    width: 300px;
+    transition: all 0.3s ease-in-out;
+}
+
+.Tom-Cook {
+    width: 15%;
+    margin: 20px;
+    background-image: url(/Assets/images/Thomas-Cook-Logo.png);
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 15px;
+    text-align: center;
+    outline: auto;
+}
+
+.Tom-Cook:hover {
     width: 300px;
     transition: all 0.3s ease-in-out;
 }
