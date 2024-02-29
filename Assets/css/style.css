@@ -14,11 +14,6 @@ body {
     outline: auto;
 }
 
-button {
-    border-radius: 15px;
-    background-color: antiquewhite;
-}
-
 footer {
     background-color: antiquewhite;
     max-width: 100%;
