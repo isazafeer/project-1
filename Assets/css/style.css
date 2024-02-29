@@ -26,9 +26,12 @@ footer {
 }
 
 a {
-    padding: 150px;
     text-decoration: none;
     color: black;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 5px;
+    outline: auto;
 }
 
 .nav {
@@ -41,6 +44,8 @@ a {
     margin: 20px;
     background: lightblue;
     outline: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .start-container {
