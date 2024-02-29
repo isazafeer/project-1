@@ -1,6 +1,6 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url(/Assets/images/Wallpaper\ Color.jpeg);
+    background-image: url(/assets/images/possible-bg-2.jpeg);
 }
 
 .header {
@@ -143,7 +143,7 @@ h1 {
     transition: all 0.3s ease-in-out;
 }
 
-.Tom-Cook {
+.tom-cook {
     width: 15%;
     margin: 20px;
     background-image: url("/assets/images/Thomas-Cook-Logo.png");
@@ -154,7 +154,8 @@ h1 {
     outline: auto;
 }
 
-.Tom-Cook:hover {
+.tom-cook:hover {
     width: 300px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-out;
 }
