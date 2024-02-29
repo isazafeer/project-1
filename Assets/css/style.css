@@ -30,6 +30,7 @@ footer {
     max-width: 100%;
     text-align: center;
     padding: 1px;
+    margin-top: 20px;
     font-size: 20px;
     border-radius: 15px;
     outline: auto;
@@ -62,6 +63,7 @@ a {
 }
 
 .description {
+    height: 30vh;
     font-size: 20px;
     text-align: center;
     width: 40%;
@@ -80,12 +82,13 @@ h1 {
 .holiday {
     display: flex;
     justify-content: center;
-    height: 30vh;
+    height: 50vh;
 }
 
 .tui {
     background-image: url("/assets/images/TUI-Logo.png");
     width: 15%;
+    height: 30vh;
     margin: 20px;
     box-sizing: border-box;
     border-radius: 15px;
@@ -100,7 +103,9 @@ h1 {
 
 .jet {
     width: 15%;
+    height: 30vh;
     margin: 20px;
+    margin-top: 12%;
     background-image: url("/assets/images/Jet2-Logo.png");
     box-sizing: border-box;
     border-radius: 15px;
@@ -115,6 +120,7 @@ h1 {
 
 .love-hol {
     width: 15%;
+    height: 30vh;
     margin: 20px;
     background-image: url("/assets/images/Love-Holidays-Logo.jpg");
     box-sizing: border-box;
@@ -130,7 +136,9 @@ h1 {
 
 .first-choice {
     width: 15%;
+    height: 30vh;
     margin: 20px;
+    margin-top: 12%;
     background-image: url("/assets/images/First-Choice-Logo.jpg");
     box-sizing: border-box;
     border-radius: 15px;
@@ -145,6 +153,7 @@ h1 {
 
 .tom-cook {
     width: 15%;
+    height: 30vh;
     margin: 20px;
     background-image: url("/assets/images/Thomas-Cook-Logo.png");
     background-color: white;
