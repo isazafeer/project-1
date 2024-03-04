@@ -1,6 +1,6 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url(/Assets/images/possible-bg-2.jpg);
+    background-image: url(../images/possible-bg-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -25,6 +25,51 @@ body {
 .header .nav {
     display: flex;
     display: inline;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rbg(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 15px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button{
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 5px;
+    outline: auto;
+    cursor: pointer;
 }
 
 footer {
@@ -99,7 +144,7 @@ h1 {
 }
 
 .tui {
-    background-image: url("/Assets/images/TUI-Logo.png");
+    background-image: url("../images/TUI-Logo.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 15%;
@@ -121,7 +166,7 @@ h1 {
     height: 30vh;
     margin: 20px;
     margin-top: 12%;
-    background-image: url("/Assets/images/Jet2-Logo.png");
+    background-image: url("../images/Jet2-Logo.png");
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
@@ -139,7 +184,7 @@ h1 {
     width: 15%;
     height: 30vh;
     margin: 20px;
-    background-image: url("/Assets/images/Love-Holidays-Logo.png");
+    background-image: url("../images/Love-Holidays-Logo.png");
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
@@ -158,7 +203,7 @@ h1 {
     height: 30vh;
     margin: 20px;
     margin-top: 12%;
-    background-image: url("/Assets/images/First-Choice-Logo.png");
+    background-image: url("../images/First-Choice-Logo.png");
     background-repeat: no-repeat;
     background-size: cover;
     box-sizing: border-box;
@@ -176,7 +221,7 @@ h1 {
     width: 15%;
     height: 30vh;
     margin: 20px;
-    background-image: url("/Assets/images/Thomas-Cook-Logo.png");
+    background-image: url("../images/Thomas-Cook-Logo.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: white;
