@@ -114,8 +114,9 @@ a {
     border-radius: 15px;
     padding: 10px;
     margin: 20px;
-    background: white;
+    background: antiquewhite;
     outline: auto;
+    opacity: 85%;
 }
 
 .description {
@@ -127,8 +128,9 @@ a {
     border-radius: 15px;
     padding: 10px;
     margin: 20px;
-    background: rgb(134, 194, 246);
+    background: antiquewhite;
     outline: auto;
+    opacity: 85%;
 }
 
 h1 {
