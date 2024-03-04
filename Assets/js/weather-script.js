@@ -109,7 +109,54 @@ const getCityCoordinates = (cityName) => {
 
 }
 
+async function lookupCurrency () {
+    const cityNameEl = document.querySelector (".city-input");
+    var cityName = cityNameEl.value.trim();
+    if (!cityName) {
+        alert("Please enter a location");
+        return;
+    }
+
+    try {
+        const response = await fetch(`https://api.opencagedata.com/geocode/v1/json?q=${encodeURIComponent(cityName)}&key=34c8054dad65420e89940d394011c178`);
+        console.log(cityName);
+        const data = await response.json();
+
+        console.log(data);
+        const { lat, lon } = data.results[0].geometry;
+        const countryCode = data.results[0].components.country_code.toUpperCase();
+
+        console.log(lat, lon, countryCode);
+        let currencyCode = '';
+        fetch('currencies.json')
+            .then(function (response) {
+                return response.json();
+            })
+            .then(function (data) {
+                
+                console.log(data.countries);
+                
+                // lookup the currency code
+                data.countries.country.forEach(country => {
+                    
+                    if (country.countryCode === countryCode) {
+                        currencyCode = country.currencyCode;
+                        document.getElementById('result').innerText = `Currency Code for ${cityName}: ${currencyCode}`;
+                        return;
+                    }
+                });
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+    } catch (error) {
+        console.error('Error:', error);
+        document.getElementById('result').innerText = 'Error fetching currency code';
+    }
+}
+
 loadRecentLocations();
 
 searchButton.addEventListener ("click", onClickSearch);
+searchButton.addEventListener ("click", lookupCurrency);
 
