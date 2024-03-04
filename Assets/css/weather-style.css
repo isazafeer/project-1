@@ -6,17 +6,18 @@
 }
 
 body {
-    background-image: url(../images/background-image.jpg);
+    background-image: url(../images/travel-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 h1 {
-    background-color: antiquewhite;
+    background-color: lightseagreen;
     max-width: 100%;
     text-align: center;
     padding: 15px;
     font-size: 27px;
+    color: antiquewhite;
 }
 
 .container {

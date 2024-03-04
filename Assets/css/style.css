@@ -1,18 +1,19 @@
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url(../images/possible-bg-2.jpg);
+    background-image: url(../images/travel-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .header {
-    background-color: antiquewhite;
+    background-color: lightseagreen;
     max-width: 100%;
     height: 5vh;
     padding: 15px;
     font-size: 27px;
     border-radius: 15px;
-    outline: auto;
+    outline: auto black;
+    color: antiquewhite;
 }
 
 .nav {
@@ -73,14 +74,15 @@ button{
 }
 
 footer {
-    background-color: antiquewhite;
+    background-color: lightseagreen;
+    color: antiquewhite;
     max-width: 100%;
     text-align: center;
     padding: 1px;
     margin-top: 20px;
     font-size: 20px;
     border-radius: 15px;
-    outline: auto;
+    outline: auto black;
     line-height: 5px;
 }
 

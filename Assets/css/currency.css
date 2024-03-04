@@ -10,7 +10,9 @@
     justify-content: center;
     min-height: 100vh;
     padding: 0 10px;
-    background: #675AFE;
+    background-image: url(../images/travel-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   ::selection{
     color: #fff;
@@ -20,7 +22,7 @@
     width: 370px;
     padding: 30px;
     border-radius: 7px;
-    background: #fff;
+    background: antiquewhite;
     box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
   }
   .wrapper header{
@@ -65,6 +67,7 @@
     border-radius: 5px;
     justify-content: center;
     border: 1px solid #999;
+    background-color: lightseagreen;
   }
   .select-box img{
     max-width: 21px;
@@ -100,11 +103,11 @@
     color: #fff;
     font-size: 17px;
     cursor: pointer;
-    background: #675AFE;
+    background: lightseagreen;
     transition: 0.3s ease;
   }
   form button:hover{
-    background: #4534fe;
+    background: #5f59a1;
   }
 
 
