@@ -5,20 +5,52 @@
     font-family: 'Poppins', sans-serif;
   }
   body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
     min-height: 100vh;
     padding: 0 10px;
     background-image: url(../images/travel-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  .header {
+    background-color: lightseagreen;
+    max-width: 100%;
+    padding: 15px;
+    font-size: 27px;
+    border-radius: 15px;
+    outline: auto black;
+    color: antiquewhite;
+  }
+
+  .nav {
+    font-size: 15px;
+    max-width: 100%;
+    display: flex;
+    margin-left: 20%;
+  }
+
+  .header .nav {
+    display: flex;
+    display: inline;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    padding: 5px;
+    outline: auto;
+  }
+
   ::selection{
     color: #fff;
     background: #675AFE;
   }
   .wrapper{
+    margin-left: 35%;
+    margin-top: 10%;
     width: 370px;
     padding: 30px;
     border-radius: 7px;

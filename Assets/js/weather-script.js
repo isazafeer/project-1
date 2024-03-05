@@ -119,10 +119,8 @@ async function lookupCurrency () {
 
     try {
         const response = await fetch(`https://api.opencagedata.com/geocode/v1/json?q=${encodeURIComponent(cityName)}&key=34c8054dad65420e89940d394011c178`);
-        console.log(cityName);
         const data = await response.json();
 
-        console.log(data);
         const { lat, lon } = data.results[0].geometry;
         const countryCode = data.results[0].components.country_code.toUpperCase();
 
@@ -134,9 +132,6 @@ async function lookupCurrency () {
             })
             .then(function (data) {
                 
-                console.log(data.countries);
-                
-                // lookup the currency code
                 data.countries.country.forEach(country => {
                     
                     if (country.countryCode === countryCode) {
@@ -147,10 +142,8 @@ async function lookupCurrency () {
                 });
             })
             .catch(function (err) {
-                console.log('error: ' + err);
             });
     } catch (error) {
-        console.error('Error:', error);
         document.getElementById('result').innerText = 'Error fetching currency code';
     }
 }
