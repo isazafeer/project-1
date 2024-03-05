@@ -162,7 +162,7 @@ h1 {
 }
 
 .tui:hover {
-    width: 300px;
+    width: 18%;
     transition: all 0.3s ease-in-out;
 }
 
@@ -181,7 +181,7 @@ h1 {
 }
 
 .jet:hover {
-    width: 300px;
+    width: 18%;
     transition: all 0.3s ease-in-out;
 }
 
@@ -199,7 +199,7 @@ h1 {
 }
 
 .love-hol:hover {
-    width: 300px;
+    width: 18%;
     transition: all 0.3s ease-in-out;
 }
 
@@ -218,7 +218,7 @@ h1 {
 }
 
 .first-choice:hover {
-    width: 300px;
+    width: 18%;
     transition: all 0.3s ease-in-out;
 }
 
@@ -237,7 +237,7 @@ h1 {
 }
 
 .tom-cook:hover {
-    width: 300px;
+    width: 18%;
     transition: all 0.3s ease-in;
     transition: all 0.3s ease-out;
 }
