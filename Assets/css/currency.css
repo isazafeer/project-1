@@ -27,8 +27,10 @@
   .nav {
     font-size: 15px;
     max-width: 100%;
-    display: inline;
-    margin-left: 20%;
+    display: flex;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 2.75%;
   }
 
   .header .nav {
@@ -43,6 +45,8 @@
     border-radius: 15px;
     padding: 5px;
     outline: auto;
+    display: flex;
+    display: inline;
   }
 
   ::selection{

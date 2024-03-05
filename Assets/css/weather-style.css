@@ -14,7 +14,7 @@ body {
 .header {
     background-color: lightseagreen;
     max-width: 98%;
-    padding: 15px;
+    padding: 5px;
     font-size: 27px;
     border-radius: 15px;
     outline: auto black;
@@ -27,7 +27,9 @@ body {
     font-size: 15px;
     max-width: 100%;
     display: flex;
-    margin-left: 20%;
+    margin-left: 50%;
+    position: absolute;
+    margin-top: 2.75%;
 }
 
 .header .nav {
