@@ -16,7 +16,7 @@
   .header {
     background-color: lightseagreen;
     max-width: 100%;
-    padding: 15px;
+    padding: 5px;
     font-size: 27px;
     border-radius: 15px;
     outline: auto black;
@@ -27,7 +27,7 @@
   .nav {
     font-size: 15px;
     max-width: 100%;
-    display: flex;
+    display: inline;
     margin-left: 20%;
   }
 
