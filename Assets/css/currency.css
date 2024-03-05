@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   }
   body{
     
@@ -21,6 +21,7 @@
     border-radius: 15px;
     outline: auto black;
     color: antiquewhite;
+    margin-top: 5px;
   }
 
   .nav {
@@ -132,7 +133,7 @@
   }
   form button{
     height: 52px;
-    color: #fff;
+    color: black;
     font-size: 17px;
     cursor: pointer;
     background: lightseagreen;

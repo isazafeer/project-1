@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'sans-serif';
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
@@ -13,12 +13,14 @@ body {
 
 .header {
     background-color: lightseagreen;
-    max-width: 100%;
+    max-width: 98%;
     padding: 15px;
     font-size: 27px;
     border-radius: 15px;
     outline: auto black;
     color: antiquewhite;
+    margin-top: 5px;
+    margin-left: 10px;
 }
 
 .nav {
