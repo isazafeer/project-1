@@ -8,5 +8,25 @@ In addition to the following we have also decided to add in hyperlinks to numero
 ## Technologies Used:
 The technologies we used are Vs code, HTML, CSS and JavaScript along with integration of API’s.
 
+## Screenshots:
+Here we have the home page that includes a header with the brand logo and the link to the navigation bars. Then we have a description of our services and a did you know fact. We also have images to booking sites so users can book their destination to their choice.
+<img width="1146" alt="Screenshot 2024-03-06 at 15 54 24" src="https://github.com/isazafeer/tripclick-project/assets/103753424/993445d3-a569-4fed-8f9a-e0cd9040699f">
+
+In this page we have the currency converter where the user can find out what the exchange rates will be to their preferred location. 
+<img width="1146" alt="Screenshot 2024-03-06 at 15 59 43" src="https://github.com/isazafeer/tripclick-project/assets/103753424/01043ba4-d600-48fb-9dd3-4564435acd7f">
+
+Here we have the weather dashboard so that you can see what the weather will be like over the next 5 days at their preferred destination.
+<img width="1146" alt="Screenshot 2024-03-06 at 16 02 40" src="https://github.com/isazafeer/tripclick-project/assets/103753424/679ee69c-6515-43d7-9c1f-706dfce2a74f">
+
+## Link to deployed application:
+https://isazafeer.github.io/tripclick-project/
+
+
+
+
+
+
+
+
 
 
