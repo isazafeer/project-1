@@ -54,10 +54,8 @@
     background: #675AFE;
   }
   .wrapper{
-    margin-left: 35%;
     margin-top: 10%;
-    width: 370px;
-    padding: 30px;
+    width: 100%;
     border-radius: 7px;
     background: antiquewhite;
     box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);
@@ -146,6 +144,19 @@
   form button:hover{
     background: #5f59a1;
   }
+
+  /* responsive */
+
+  @media (max-width: 1440px) {
+    .wrapper{
+        padding: 20px;
+        justify-content: center;
+    }
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
 
 
   
