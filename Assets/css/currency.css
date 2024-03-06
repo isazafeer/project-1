@@ -54,8 +54,10 @@
     background: #675AFE;
   }
   .wrapper{
+    margin-left: 35%;
     margin-top: 10%;
-    width: 100%;
+    width: 25%;
+    padding: 30px;
     border-radius: 7px;
     background: antiquewhite;
     box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.05);

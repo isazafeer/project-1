@@ -255,40 +255,22 @@ h1 {
         display: flex;
         flex-wrap: wrap;
     }
-    .start-container {
-        
-    }
 }
 
 @media (max-width: 960px) {
     .header {
         width: 100%
     }
-    .nav {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .start-container {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center ;
-    }
-    .about {
-        width: 100%;
-    }
-
-    .description {
-        width: 100%;
-    }
-}
-
-@media (max-width: 768px) {
-    .header {
-        width: 100%
+    .header img {
+        width: 62px;
     }
     .nav {
+        font-size: 15px;
+        max-width: 100%;
         display: flex;
-        flex-wrap: wrap;
+        margin-left: 35%;
+        position: absolute;
+        margin-top: 1.8%;
     }
     .start-container {
         display: flex;
@@ -304,6 +286,236 @@ h1 {
     }
     .holiday {
         display: flex;
-        flex-wrap: wrap;
+        justify-content: center;
+        height: 35vh;
     }
+    .bookNow a{
+        position: relative;
+        outline: auto;
+    }
+    .tui {
+        background-image: url("../images/TUI-Logo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 15%;
+        height: 20vh;
+        margin: 20px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        text-align: center;
+        outline: auto;
+    }
+    
+    .tui:hover {
+        width: 18%;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .jet {
+        width: 15%;
+        height: 20vh;
+        margin: 20px;
+        margin-top: 12%;
+        background-image: url("../images/Jet2-Logo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+        border-radius: 15px;
+        text-align: center;
+        outline: auto;
+    }
+    
+    .jet:hover {
+        width: 18%;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .love-hol {
+        width: 15%;
+        height: 20vh;
+        margin: 20px;
+        background-image: url("../images/Love-Holidays-Logo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+        border-radius: 15px;
+        text-align: center;
+        outline: auto;
+    }
+    
+    .love-hol:hover {
+        width: 18%;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .first-choice {
+        width: 15%;
+        height: 20vh;
+        margin: 20px;
+        margin-top: 12%;
+        background-image: url("../images/First-Choice-Logo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+        border-radius: 15px;
+        text-align: center;
+        outline: auto;
+    }
+    
+    .first-choice:hover {
+        width: 18%;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .tom-cook {
+        width: 15%;
+        height: 20vh;
+        margin: 20px;
+        background-image: url("../images/Thomas-Cook-Logo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: white;
+        box-sizing: border-box;
+        border-radius: 15px;
+        text-align: center;
+        outline: auto;
+    }
+    
+    .tom-cook:hover {
+        width: 18%;
+        transition: all 0.3s ease-in;
+        transition: all 0.3s ease-out;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        width: 100%
+    }
+    .nav {
+        font-size: 15px;
+        max-width: 15%;
+        display: inline-flex;
+        margin-left: 5%;
+        position: relative;
+        margin-top: 2.75%;
+    }
+    
+    .start-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center ;
+    }
+    .about {
+        width: 100%;
+    }
+
+    .description {
+        width: 100%;
+    }
+    .holiday {
+        display: flex;
+        justify-content: center;
+        height: 20vh;
+    }
+    
+    .bookNow a{
+        width: 9%;
+        position: absolute;
+    }
+    
+    .tui {
+        background-image: url("../images/TUI-Logo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 15%;
+        height: 10vh;
+        margin: 20px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        text-align: center;
+        outline: auto;
+    }
+    
+    .tui:hover {
+        width: 18%;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .jet {
+        width: 15%;
+        height: 10vh;
+        margin: 20px;
+        margin-top: 12%;
+        background-image: url("../images/Jet2-Logo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+        border-radius: 15px;
+        text-align: center;
+        outline: auto;
+    }
+    
+    .jet:hover {
+        width: 18%;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .love-hol {
+        width: 15%;
+        height: 10vh;
+        margin: 20px;
+        background-image: url("../images/Love-Holidays-Logo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+        border-radius: 15px;
+        text-align: center;
+        outline: auto;
+    }
+    
+    .love-hol:hover {
+        width: 18%;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .first-choice {
+        width: 15%;
+        height: 10vh;
+        margin: 20px;
+        margin-top: 12%;
+        background-image: url("../images/First-Choice-Logo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        box-sizing: border-box;
+        border-radius: 15px;
+        text-align: center;
+        outline: auto;
+    }
+    
+    .first-choice:hover {
+        width: 18%;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .tom-cook {
+        width: 15%;
+        height: 10vh;
+        margin: 20px;
+        background-image: url("../images/Thomas-Cook-Logo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: white;
+        box-sizing: border-box;
+        border-radius: 15px;
+        text-align: center;
+        outline: auto;
+    }
+    
+    .tom-cook:hover {
+        width: 18%;
+        transition: all 0.3s ease-in;
+        transition: all 0.3s ease-out;
+    }
+
 }
