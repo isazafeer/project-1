@@ -18,7 +18,8 @@ In this page we have the currency converter where the user can find out what the
 
 
 Here we have the weather dashboard so that you can see what the weather will be like over the next 5 days at their preferred destination.
-<img width="1146" alt="Screenshot 2024-03-06 at 18 45 44" src="https://github.com/isazafeer/tripclick-project/assets/103753424/68e31845-b021-447d-a4ce-ecfbb5ab142d">
+<img width="1146" alt="Screenshot 2024-03-06 at 18 47 18" src="https://github.com/isazafeer/tripclick-project/assets/103753424/1d735350-5255-474c-aac7-0e3863393a7d">
+
 
 
 ## Link to deployed application:
