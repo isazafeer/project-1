@@ -124,7 +124,6 @@ async function lookupCurrency () {
         const { lat, lon } = data.results[0].geometry;
         const countryCode = data.results[0].components.country_code.toUpperCase();
 
-        console.log(lat, lon, countryCode);
         let currencyCode = '';
         fetch('currencies.json')
             .then(function (response) {

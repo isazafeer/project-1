@@ -57,7 +57,6 @@ function getExchangeValue() {
 
   exchangeTxt.innerText = "Getting exchange rate...";
   let url = `${WEB_URL}${fromCurrency.value}`;
-  console.log(url);
   fetch(url)
     .then((response) => response.json())
     .then((result) => {
